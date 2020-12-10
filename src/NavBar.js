@@ -1,6 +1,6 @@
 import './NavBar.css';
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div class="topbar">
     <nav class="navbar">
@@ -114,7 +114,7 @@ function NavBar() {
     </ul>
   </nav>
   <div class="header">
-      <h1>This is a header!</h1>
+      <h1>{props.name}</h1>
   </div>
     </div>
   );

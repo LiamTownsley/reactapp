@@ -1,9 +1,7 @@
-* {
-    margin: 0;
-}
-
 #App {
     margin-left: 5rem;
+    margin-top: 3vh;
     padding: 1rem;
     color: white;
+    background-color: red;
 }

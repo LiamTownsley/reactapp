@@ -1,6 +1,6 @@
 :root {
     font-size: 16;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Palatino';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: #23232e;
@@ -145,6 +145,10 @@ svg {
     background-color: var(--bg-tertiary);
     height: 3rem;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -153,7 +157,7 @@ svg {
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .topbar {

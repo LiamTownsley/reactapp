@@ -6,7 +6,7 @@ import NavBar from './NavBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavBar />
+    <NavBar name="INDEX" />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
